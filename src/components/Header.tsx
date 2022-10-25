@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <header className="w-full fixed top-0 left-0 z=10">
+      <header className="w-full fixed top-0 left-0 z-10">
         <nav className="mx-auto max-w-6xl flex flex-row justify-between py-6 items-center">
           <a href="/" className="text-2xl text-blue-800 font-bold">
             Heavensent
