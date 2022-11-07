@@ -1,5 +1,8 @@
 # Product Landing Page
 
+## Screenshot
+![Preview](https://i.imgur.com/xHbVe96.png)
+
 ## About
 
 Mockup landing page of a conceptual product.
