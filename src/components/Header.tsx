@@ -1,7 +1,14 @@
+import { motion } from "framer-motion";
+
 const Header = () => {
   return (
     <>
-      <header className="w-full fixed top-0 left-0 z-10">
+      <motion.header
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="w-full fixed top-0 left-0 z-10"
+      >
         <nav className="mx-auto max-w-6xl flex flex-row justify-between py-6 items-center">
           <a href="/" className="text-2xl text-blue-800 font-bold">
             Heavensent
@@ -12,7 +19,7 @@ const Header = () => {
             <a href="/">Examples</a>
           </div>
         </nav>
-      </header>
+      </motion.header>
     </>
   );
 };
